@@ -100,12 +100,12 @@ class SensorService : Service() {
         // Required sensor types and their corresponding names.
         private val REQUIRED_SENSORS = mapOf(
             Sensor.TYPE_ACCELEROMETER to Sensor.STRING_TYPE_ACCELEROMETER,
-            Sensor.TYPE_ACCELEROMETER_UNCALIBRATED to Sensor.STRING_TYPE_ACCELEROMETER_UNCALIBRATED,
+            // sensor not working: Sensor.TYPE_ACCELEROMETER_UNCALIBRATED to Sensor.STRING_TYPE_ACCELEROMETER_UNCALIBRATED,
             Sensor.TYPE_GRAVITY to Sensor.STRING_TYPE_GRAVITY,
             Sensor.TYPE_GYROSCOPE to Sensor.STRING_TYPE_GYROSCOPE,
-            Sensor.TYPE_GYROSCOPE_UNCALIBRATED to Sensor.STRING_TYPE_GYROSCOPE_UNCALIBRATED,
+            // unused: Sensor.TYPE_GYROSCOPE_UNCALIBRATED to Sensor.STRING_TYPE_GYROSCOPE_UNCALIBRATED,
             Sensor.TYPE_LINEAR_ACCELERATION to Sensor.STRING_TYPE_LINEAR_ACCELERATION,
-            Sensor.TYPE_ROTATION_VECTOR to Sensor.STRING_TYPE_ROTATION_VECTOR
+            // unused: Sensor.TYPE_ROTATION_VECTOR to Sensor.STRING_TYPE_ROTATION_VECTOR
         )
     }
 
